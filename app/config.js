@@ -190,7 +190,7 @@ module.exports = {
 				{
 					title:"Related Sites",
 					links:[
-						{name: "Bitcoin Explorer", url:"https://explorer.btc21.org", imgUrl:"./img/logo/btc.svg"},
+						{name: "Niobio Explorer", url:"https://explorer.btc21.org", imgUrl:"./img/logo/btc.svg"},
 						{name: "Testnet Explorer", url:"https://testnet.btc21.org", imgUrl:"./img/logo/tbtc.svg"},
 						{name: "Signet Explorer", url:"https://signet.btc21.org", imgUrl:"./img/logo/signet.svg"},
 						{name: "LND Admin", url:"https://lnd-admin.btc21.org", imgUrl:"./img/logo/lnd-admin.png"},
