@@ -4,10 +4,10 @@ Decimal8 = Decimal.clone({ precision:8, rounding:8 });
 var currencyUnits = [
 	{
 		type:"native",
-		name:"BTC",
+		name:"NBR",
 		multiplier:1,
 		default:true,
-		values:["", "btc", "BTC"],
+		values:["", "nbr", "NBR"],
 		decimalPlaces:8
 	},
 	{

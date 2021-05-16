@@ -1402,6 +1402,16 @@ router.get("/terminal", function(req, res, next) {
 	next();
 });
 
+router.get("/supply", function(req, res, next) {
+	global.rpcClientNoTimeout.command([{method:"gettxoutsetinfo", parameters:[]}], function(err, result, resHeaders) {
+
+		res.write(JSON.stringify(result[0].total_amount, null, 4), function() {
+			res.end();
+		});
+
+	});
+});
+
 router.post("/terminal", function(req, res, next) {
 	console.log("here");
 
